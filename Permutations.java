@@ -13,7 +13,7 @@ public class Permutations {
         } else {
             ArrayList<Integer> permutation = new ArrayList<>();
             for (int i = 2; i <= n; i += 2) {
-                permutation.add(i);
+                permutation.add(i); 
             }
             for (int i = 1; i <= n; i += 2) {
                 permutation.add(i);
@@ -25,4 +25,4 @@ public class Permutations {
             }
         }
     }
-}
+} 
